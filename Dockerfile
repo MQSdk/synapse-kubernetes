@@ -1,5 +1,5 @@
-ARG SYNAPSE_VERSION="1.28.0"
-FROM matrixdotorg/synapse:v${SYNAPSE_VERSION}
+# ARG SYNAPSE_VERSION="1.28.0"
+FROM mqsdk/synapse:latest
 
 MAINTAINER Alexander Olofsson <ace@haxalot.com>
 
